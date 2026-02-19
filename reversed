@@ -1,0 +1,7 @@
+public class reversed {
+    public static void main(String[] args) {
+        String str = "hello";
+        String c = new StringBuilder(str).reverse().toString();
+        System.out.println(c);
+    }
+}
